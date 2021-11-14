@@ -1,0 +1,31 @@
+So you start off at the front of a big forrest and you have to try and escape the forrest to get to the other side
+where the treasure is that someone told you about (maybe add some lore if you can be arsed). The forest however, is
+full of creatures and traps planted by evolution or people who used to live there
+
+Gameplay mechanics:
+battle system
+inventory
+24hr/day cycle
+entering temples/ caves etc.
+having decisions every hour for the player, based off of their state and position in the forrest
+generate the forrests with some stuff
+
+Enemies in the forrest:
+Pixies
+Spiders
+Anthrapomorphic trees
+Birds?
+
+Other things in the forest:
+Abandoned temples?
+Some form of loot, each piece of loot has a value
+Traps and stuff which you can fall into... or can fall onto you... or can fall at you... or kill you
+
+Player:
+health
+money
+hydration and hunger will both decrease with every turn, so you have another turn every hour or so in a day, and you sleep for 8 hours unless something happens in which case you will get sleep deprivation
+the player dies if health, hydration, hunger and sleep deprivation all reach a critically low level
+items like potions, weapons, food can all have certain values/ effects
+
+Might implement pets... we'll see how we go
