@@ -26,6 +26,7 @@ namespace TextAdventureGame
 				}
 				else
 					clock.Tick();
+				Player player = new Player();
 			}
 		}
 	}
@@ -120,9 +121,80 @@ namespace TextAdventureGame
 		public int hydration = 0;
 		public uint gold = 0;
 
+		public Dictionary<string, dynamic> inventory = new Dictionary<string, dynamic>()
+		{
+			{ "Axe", "INSERT AXE" },
+			{ "Flint and steel", "INSERT FLINT AND STEEL" },
+			{"Food", "INSERT GRANOLA BARS OR SOMMET IDK" }
+		};
+
 		public Player()
 		{
 			Console.WriteLine("You exist now bitch");
+		}
+	}
+
+	public class Inventory
+	{
+		public readonly Dictionary<string, Item> items = new Dictionary<string, Item>();
+
+		public Inventory(List<Item> defaultItems)
+		{
+			foreach(var item in defaultItems)
+			{
+				items.Add(item.Name, item);
+			}
+		}
+
+		public void AddItem(Item item)
+		{
+			items.Add(item.Name, item);
+		}
+
+		public bool Contains(Item item)
+		{
+			foreach(var kvp in items)
+			{
+				if (kvp.Value == item)
+					return true;
+			} return false;
+		}
+
+		public void OutputContents()
+		{
+			Console.WriteLine("Your inventory contains the following items: ");
+			foreach(var kvp in items)
+			{
+				Console.WriteLine($"{kvp.Key}: {kvp.Value}");
+			}
+		}
+	}
+
+	public abstract class Item
+	{
+		private readonly string _name;
+
+		private readonly string _description;
+
+		public Item(string name = "Item", string description = "This is an Item")
+		{
+			_name = name;
+			_description = description;
+		}
+
+		public abstract void Use(Player player);
+
+		public void OutputDescription()
+		{
+			Console.WriteLine(_description);
+		}
+
+		public string Name
+		{
+			get
+			{
+				return _name;
+			}
 		}
 	}
 }
