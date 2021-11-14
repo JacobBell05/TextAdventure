@@ -1,0 +1,14 @@
+C:\Users\jmast\source\repos\TextAdventureGame\bin\Debug\netcoreapp3.1\TextAdventureGame.exe
+C:\Users\jmast\source\repos\TextAdventureGame\bin\Debug\netcoreapp3.1\TextAdventureGame.deps.json
+C:\Users\jmast\source\repos\TextAdventureGame\bin\Debug\netcoreapp3.1\TextAdventureGame.runtimeconfig.json
+C:\Users\jmast\source\repos\TextAdventureGame\bin\Debug\netcoreapp3.1\TextAdventureGame.runtimeconfig.dev.json
+C:\Users\jmast\source\repos\TextAdventureGame\bin\Debug\netcoreapp3.1\TextAdventureGame.dll
+C:\Users\jmast\source\repos\TextAdventureGame\bin\Debug\netcoreapp3.1\TextAdventureGame.pdb
+C:\Users\jmast\source\repos\TextAdventureGame\obj\Debug\netcoreapp3.1\TextAdventureGame.csproj.AssemblyReference.cache
+C:\Users\jmast\source\repos\TextAdventureGame\obj\Debug\netcoreapp3.1\TextAdventureGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jmast\source\repos\TextAdventureGame\obj\Debug\netcoreapp3.1\TextAdventureGame.AssemblyInfoInputs.cache
+C:\Users\jmast\source\repos\TextAdventureGame\obj\Debug\netcoreapp3.1\TextAdventureGame.AssemblyInfo.cs
+C:\Users\jmast\source\repos\TextAdventureGame\obj\Debug\netcoreapp3.1\TextAdventureGame.csproj.CoreCompileInputs.cache
+C:\Users\jmast\source\repos\TextAdventureGame\obj\Debug\netcoreapp3.1\TextAdventureGame.dll
+C:\Users\jmast\source\repos\TextAdventureGame\obj\Debug\netcoreapp3.1\TextAdventureGame.pdb
+C:\Users\jmast\source\repos\TextAdventureGame\obj\Debug\netcoreapp3.1\TextAdventureGame.genruntimeconfig.cache
